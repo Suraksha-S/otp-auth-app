@@ -1,0 +1,239 @@
+.login-container{
+    
+    width: 100%;
+   height: 710px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+ .login-heading{
+    
+    width: 100%;
+    height: 65px;
+    font-weight: 500;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background:  rgba(0, 0, 0, 0.3); 
+   letter-spacing: 2px;
+    
+
+   
+}
+
+.signIn-container{ 
+    width: 90%;
+    height: 605px;
+    display: flex;
+   justify-content: center;
+   
+   margin-top: 100px;
+}
+
+.signIn-box1{
+    
+    width: 566.85px;
+    height: 365px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   background: rgba(0, 0, 0, 0.3);
+  
+
+
+}
+.signIn-heading1{
+   
+    width: 70%;
+    height: 80px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+   margin-top: 1px;
+}
+.signIn-heading1 h2{
+    color: rgb(181, 174, 174);
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+  letter-spacing: 2px;
+
+}
+.signIn-box2{
+   
+    width: 486px;
+    height: 365px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   background: rgba(0, 0, 0, 0.2);
+ 
+   
+
+
+}
+.signIn-box2 p{
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.signIn-heading{
+    /* border: 3px solid blue; */
+    width: 70%;
+    height: 80px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.signIn-heading h2{
+    color: rgb(181, 174, 174);
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+}
+.signIn-form{
+    
+    width: 80%;
+    height: 250px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+
+    
+}
+.signIn-form input{
+    height: 54.09px;
+    width: 355px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset -2px 2px 2px rgb(130, 130, 130);
+    outline: none;
+    font-size: 20px;
+    line-height: 30px;
+    caret-color: white;
+    padding-left: 20px;
+    color: white;
+    animation: blinkCursor 1s infinite;
+    
+}
+.signIn-form input::placeholder{
+    color: rgb(130, 130, 130);
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+ padding-left: 20px;
+}
+.signIn-form button{
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #037d36, #029b42);
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 5px;
+   
+
+    box-shadow: inset -1px -5px  10px black;
+   
+}
+
+.signIn-form1{
+   
+    width: 80%;
+    height: 180px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.signIn-form1 input{
+    height: 54.09px;
+    width: 355px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset -2px 2px 2px rgb(130, 130, 130);
+    outline: none;
+    font-size: 20px;
+    line-height: 30px;
+    caret-color: white;
+    padding-left: 20px;
+    color: white;
+    animation: blinkCursor 1s infinite;
+    
+}
+.signIn-form1 input::placeholder{
+    color: rgb(130, 130, 130);
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+ padding-left: 20px;
+}
+
+.signIn-form1 button{
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #037d36, #029b42);
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 5px;
+    box-shadow: inset -1px -5px  10px black;
+   
+}
+.resend {
+
+width: 355px;
+height: 50px;
+display: flex;
+align-items: start;
+justify-content: center;
+gap: 160px;
+margin: 0;
+padding-top: 10px;
+}
+.resend p{
+   letter-spacing: 2px;
+   font-size: 14px;
+  
+}
+.resend p:hover{
+    cursor: pointer;
+    color: rgb(130, 130, 130);
+}
+
+
+.login-Footer{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba(0, 0, 0, 0.2);
+} 

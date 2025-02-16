@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+    background: linear-gradient(to right,#16a7ea, #1b9c75, #6260de);
+    
+    color: white;
+    
+}
+
+.dashboard-container {
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.header{
+ 
+   width: 100%;
+   height: 61px; 
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   gap: 450px;
+   background: rgba(0, 0, 0, 0.3);
+   
+}
+.header button{
+    margin-right: 10px;
+}
+
+.chart{
+    
+   width: 100%;
+   height: 644px;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-Footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba(0, 0, 0, 0.2);
+}
+.grid1{
+    
+    width:67px ;
+    height: 622px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.grid1 img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+}
+
+.grid2{
+   
+    width:286px ;
+    height: 540px;
+    margin-left: 57px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 65px;
+}
+.grid3{
+   
+    width:286px ;
+    height: 540px;
+    margin-left: 57px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.grid4{
+    
+    width:673px ;
+    height: 540px;
+    margin-right: 51px;
+    margin-left: 34px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card1{
+    width: 286px;
+    height: 235px;
+    background-color: rgba(0, 0, 0, 0.3);
+   
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   
+   
+    
+
+
+}
+.card2{
+    background-color: rgba(0, 0, 0, 0.3);
+   
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 540px;
+    width: 286px; 
+
+}
+
+.card3 {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 540px;
+    width: 673px; 
+}
+
+
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logout-btn {
+    background:none;
+    color: #4299e1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
